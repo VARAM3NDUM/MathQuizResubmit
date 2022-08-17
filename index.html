@@ -1,0 +1,44 @@
+<html><head>
+	<title>Math Quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="Login.js"></script>
+</head>
+<body>
+	<div id="Left" class="split left">
+		<div class="centered">
+		<h1 id="h1" style="color: aliceblue;" class="text-capitalize">Math Quiz</h1>
+		<br>
+		
+		<div style="text-align: center; align-items:center;" class="col-lg-4 col-sm-8 col-xs-8 login_div1">
+			<h3>Player 1 </h3>
+			<label> Name: </label>	
+			<input id="player1_name" type="ibox" class="form-control" placeholder="Player 1 username">
+			<br>
+		</div>
+		<br>
+		<div style="text-align: center; align-items: center;" class="col-lg-4 col-sm-8 col-xs-8 login_div2">
+			<h3>Player 2 </h3>
+			<label> Name: </label>	
+			<input id="player2_name" type="ibox" class="form-control" placeholder="Player 2 username">
+			<br>
+		</div>
+		<br>
+		<button id="Login" type="button" class="btn btn-danger" onclick="addUser()">Let's Start</button>
+    </div>
+</div>
+
+
+<div id="Right" class="split right">
+    <div class="centered">
+        <img id="Right_Img" src="RightImg.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

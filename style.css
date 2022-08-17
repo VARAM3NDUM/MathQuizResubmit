@@ -1,0 +1,99 @@
+#Left
+{
+	background-color: #9136ce;
+}
+
+.login_div1 , .login_div2
+{
+	background: white;
+	padding: 5px;
+	float: none;
+	border-radius: 15px;
+	width: 500px;
+}
+
+#Login
+{
+	margin-left: 20px;
+	width: 400px;
+}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	width: 450px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+
+
+#Right_Img
+{
+	width: 669px;
+	height: 100%;
+}
+
+.split { height: 100%; width: 50%; position: fixed; z-index: 1; top: 0; overflow-x: hidden; padding-top: 20px; } 
+
+.left { left: 0; }
+
+.right { right: 0; }
+
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
+
+#Output
+{
+	border-style: solid;
+	border-top-color: white;
+	border-bottom-color: rgb(87, 215, 219);
+	border-right-color: white;
+	border-left-color: rgb(87, 215, 219);
+	border-radius: 10px;
+	background-image: url(Right.png);
+}
+
+#player1_name
+{
+	margin-left: 5px;
+}
+
+#player2_name
+{
+	margin-left: 5px;
+}
+
+#player1_score
+{
+	
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#player2_score
+{
+	
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#player2_name_score
+{
+	display: inline-block;
+	font-size: x-large;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#player1_name_score
+{
+	display: inline-block;
+	font-size: x-large;
+	font-weight: bold;
+	margin-left: 5px;
+}
